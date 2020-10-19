@@ -1,0 +1,57 @@
+{
+  "name": "tugo-rule-playground",
+  "version": "0.0.1",
+  "description": "exploring TuGo eligibility rule resource",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test:unit": "lab --leaks -L",
+    "test:acceptance": "cucumber-js --tags=@complete",
+    "test:all": "npm run test:unit && npm run test:acceptance",
+    "_cover:unit": "nyc --check-coverage=true --lines=0 --reporter=text --reporter=html npm run test:unit",
+    "_cover:acceptance": "nyc --check-coverage=true --lines=0 --reporter=text --reporter=html npm run test:acceptance",
+    "cover:unit": "nyc --silent npm run test:unit",
+    "cover:acceptance": "nyc --silent --no-clean npm run test:acceptance",
+    "cover:report": "nyc report --reporter=cobertura --reporter=lcov --reporter=text --reporter=html",
+    "cover": "npm run cover:unit && npm run cover:acceptance && npm run cover:report"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/momiller121/hapi-path.git"
+  },
+  "keywords": [
+    "hapi",
+    "starter"
+  ],
+  "author": "Mark Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/momiller121/hapi-path/issues"
+  },
+  "homepage": "https://github.com/momiller121/hapi-path#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.0.1",
+    "@hapi/hoek": "^9.1.0",
+    "@hapi/inert": "^6.0.3",
+    "@hapi/vision": "^6.0.1",
+    "date-fns": "^2.16.1",
+    "date-fns-tz": "^1.0.12",
+    "hapi-pino": "^8.3.0",
+    "hapi-swagger": "^14.0.0",
+    "joi": "^17.2.1",
+    "pino": "^6.7.0"
+  },
+  "devDependencies": {
+    "@hapi/code": "^8.0.2",
+    "@hapi/eslint-config-hapi": "^13.0.2",
+    "@hapi/eslint-plugin-hapi": "^4.3.6",
+    "@hapi/lab": "^24.0.0",
+    "cucumber": "^6.0.5",
+    "eslint": "^7.11.0",
+    "mockdate": "^3.0.2",
+    "nyc": "^15.1.0"
+  }
+}

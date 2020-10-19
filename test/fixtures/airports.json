@@ -1,0 +1,990 @@
+{
+    "YXX": {
+        "timezone": "America/Vancouver",
+        "countryCode": "CA"
+    },
+    "YBR": {
+        "timezone": "America/Winnipeg",
+        "countryCode": "CA"
+    },
+    "YYC": {
+        "timezone": "America/Edmonton",
+        "countryCode": "CA"
+    },
+    "YYG": {
+        "timezone": "America/Halifax",
+        "countryCode": "CA"
+    },
+    "YQQ": {
+        "timezone": "America/Vancouver",
+        "countryCode": "CA"
+    },
+    "YXC": {
+        "timezone": "America/Edmonton",
+        "countryCode": "CA"
+    },
+    "YDQ": {
+        "timezone": "America/Dawson_Creek",
+        "countryCode": "CA"
+    },
+    "YDF": {
+        "timezone": "America/St_Johns",
+        "countryCode": "CA"
+    },
+    "YEG": {
+        "timezone": "America/Edmonton",
+        "countryCode": "CA"
+    },
+    "YMM": {
+        "timezone": "America/Edmonton",
+        "countryCode": "CA"
+    },
+    "YXJ": {
+        "timezone": "America/Dawson_Creek",
+        "countryCode": "CA"
+    },
+    "YFC": {
+        "timezone": "America/Halifax",
+        "countryCode": "CA"
+    },
+    "YQX": {
+        "timezone": "America/St_Johns",
+        "countryCode": "CA"
+    },
+    "YQU": {
+        "timezone": "America/Edmonton",
+        "countryCode": "CA"
+    },
+    "YHZ": {
+        "timezone": "America/Halifax",
+        "countryCode": "CA"
+    },
+    "YHM": {
+        "timezone": "America/Toronto",
+        "countryCode": "CA"
+    },
+    "YKA": {
+        "timezone": "America/Vancouver",
+        "countryCode": "CA"
+    },
+    "YLW": {
+        "timezone": "America/Vancouver",
+        "countryCode": "CA"
+    },
+    "YKF": {
+        "timezone": "America/Toronto",
+        "countryCode": "CA"
+    },
+    "YQL": {
+        "timezone": "America/Edmonton",
+        "countryCode": "CA"
+    },
+    "YLL": {
+        "timezone": "America/Edmonton",
+        "countryCode": "CA"
+    },
+    "YXU": {
+        "timezone": "America/Toronto",
+        "countryCode": "CA"
+    },
+    "YXH": {
+        "timezone": "America/Edmonton",
+        "countryCode": "CA"
+    },
+    "YQM": {
+        "timezone": "America/Halifax",
+        "countryCode": "CA"
+    },
+    "YUL": {
+        "timezone": "America/Toronto",
+        "countryCode": "CA"
+    },
+    "YCD": {
+        "timezone": "America/Vancouver",
+        "countryCode": "CA"
+    },
+    "YOW": {
+        "timezone": "America/Toronto",
+        "countryCode": "CA"
+    },
+    "YYF": {
+        "timezone": "America/Vancouver",
+        "countryCode": "CA"
+    },
+    "YXS": {
+        "timezone": "America/Vancouver",
+        "countryCode": "CA"
+    },
+    "YQB": {
+        "timezone": "America/Toronto",
+        "countryCode": "CA"
+    },
+    "YQR": {
+        "timezone": "America/Regina",
+        "countryCode": "CA"
+    },
+    "YXE": {
+        "timezone": "America/Regina",
+        "countryCode": "CA"
+    },
+    "YYT": {
+        "timezone": "America/St_Johns",
+        "countryCode": "CA"
+    },
+    "YQY": {
+        "timezone": "America/Halifax",
+        "countryCode": "CA"
+    },
+    "YXT": {
+        "timezone": "America/Vancouver",
+        "countryCode": "CA"
+    },
+    "YQT": {
+        "timezone": "America/Toronto",
+        "countryCode": "CA"
+    },
+    "YYZ": {
+        "timezone": "America/Toronto",
+        "countryCode": "CA"
+    },
+    "YVR": {
+        "timezone": "America/Vancouver",
+        "countryCode": "CA"
+    },
+    "YYJ": {
+        "timezone": "America/Vancouver",
+        "countryCode": "CA"
+    },
+    "YXY": {
+        "timezone": "America/Vancouver",
+        "countryCode": "CA"
+    },
+    "YQG": {
+        "timezone": "America/Toronto",
+        "countryCode": "CA"
+    },
+    "YWG": {
+        "timezone": "America/Winnipeg",
+        "countryCode": "CA"
+    },
+    "YZF": {
+        "timezone": "America/Edmonton",
+        "countryCode": "CA"
+    },
+    "ABY": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "ALB": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "ABQ": {
+        "timezone": "America/Denver",
+        "countryCode": "US"
+    },
+    "AEX": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "ABE": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "ANC": {
+        "timezone": "America/Anchorage",
+        "countryCode": "US"
+    },
+    "AVL": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "ATL": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "AGS": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "AUS": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "BWI": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "BTR": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "BHM": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "BMI": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "BOI": {
+        "timezone": "America/Denver",
+        "countryCode": "US"
+    },
+    "BOS": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "BZN": {
+        "timezone": "America/Denver",
+        "countryCode": "US"
+    },
+    "TRI": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "BQK": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "BUF": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "CHS": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "CRW": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "CLT": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "CHO": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "CHA": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "ORD": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "MDW": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "CVG": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "CLE": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "CAE": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "CMH": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "CSG": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "GTR": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "DFW": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "DAL": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "DAY": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "DAB": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "DEN": {
+        "timezone": "America/Denver",
+        "countryCode": "US"
+    },
+    "DSM": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "VPS": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "DTW": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "DHN": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "EVV": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "FAI": {
+        "timezone": "America/Anchorage",
+        "countryCode": "US"
+    },
+    "FAY": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "XNA": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "FLL": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "RSW": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "FWA": {
+        "timezone": "America/Indiana/Indianapolis",
+        "countryCode": "US"
+    },
+    "GNV": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "GRR": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "GSO": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "GSP": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "GPT": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "MDT": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "BDL": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "IAH": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "HOU": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "HSV": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "IND": {
+        "timezone": "America/Indiana/Indianapolis",
+        "countryCode": "US"
+    },
+    "JAN": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "JAX": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "OAJ": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "MCI": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "EYW": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "TYS": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "LFT": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "LAS": {
+        "timezone": "America/Los_Angeles",
+        "countryCode": "US"
+    },
+    "LEX": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "LAX": {
+        "timezone": "America/Los_Angeles",
+        "countryCode": "US"
+    },
+    "SDF": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "MLB": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "MEM": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "MIA": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "MKE": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "MSP": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "MOB": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "MLI": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "MLU": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "MGM": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "MYR": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "BNA": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "MSY": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "JFK": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "LGA": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "EWR": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "ORF": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "OKC": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "OMA": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "SNA": {
+        "timezone": "America/Los_Angeles",
+        "countryCode": "US"
+    },
+    "MCO": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "PSP": {
+        "timezone": "America/Los_Angeles",
+        "countryCode": "US"
+    },
+    "ECP": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "PSC": {
+        "timezone": "America/Los_Angeles",
+        "countryCode": "US"
+    },
+    "PNS": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "PHL": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "PHX": {
+        "timezone": "America/Phoenix",
+        "countryCode": "US"
+    },
+    "AZA": {
+        "timezone": "America/Phoenix",
+        "countryCode": "US"
+    },
+    "PIT": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "PDX": {
+        "timezone": "America/Los_Angeles",
+        "countryCode": "US"
+    },
+    "PWM": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "RDU": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "RIC": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "ROA": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "ROC": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "SMF": {
+        "timezone": "America/Los_Angeles",
+        "countryCode": "US"
+    },
+    "SLC": {
+        "timezone": "America/Denver",
+        "countryCode": "US"
+    },
+    "SAT": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "SAN": {
+        "timezone": "America/Los_Angeles",
+        "countryCode": "US"
+    },
+    "SFO": {
+        "timezone": "America/Los_Angeles",
+        "countryCode": "US"
+    },
+    "SJC": {
+        "timezone": "America/Los_Angeles",
+        "countryCode": "US"
+    },
+    "SRQ": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "SAV": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "SEA": {
+        "timezone": "America/Los_Angeles",
+        "countryCode": "US"
+    },
+    "SHV": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "SBN": {
+        "timezone": "America/Indiana/Indianapolis",
+        "countryCode": "US"
+    },
+    "GEG": {
+        "timezone": "America/Los_Angeles",
+        "countryCode": "US"
+    },
+    "SGF": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "STL": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "SYR": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "TLH": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "TPA": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "TUS": {
+        "timezone": "America/Phoenix",
+        "countryCode": "US"
+    },
+    "VLD": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "IAD": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "DCA": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "PBI": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "HPN": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "ICT": {
+        "timezone": "America/Chicago",
+        "countryCode": "US"
+    },
+    "ILM": {
+        "timezone": "America/New_York",
+        "countryCode": "US"
+    },
+    "HNL": {
+        "timezone": "Pacific/Honolulu",
+        "countryCode": "US"
+    },
+    "OGG": {
+        "timezone": "Pacific/Honolulu",
+        "countryCode": "US"
+    },
+    "KOA": {
+        "timezone": "Pacific/Honolulu",
+        "countryCode": "US"
+    },
+    "LIH": {
+        "timezone": "Pacific/Honolulu",
+        "countryCode": "US"
+    },
+    "ACA": {
+        "timezone": "America/Mexico_City",
+        "countryCode": "MX"
+    },
+    "CUN": {
+        "timezone": "America/Cancun",
+        "countryCode": "MX"
+    },
+    "CUU": {
+        "timezone": "America/Mazatlan",
+        "countryCode": "MX"
+    },
+    "CZM": {
+        "timezone": "America/Cancun",
+        "countryCode": "MX"
+    },
+    "GDL": {
+        "timezone": "America/Mexico_City",
+        "countryCode": "MX"
+    },
+    "HMO": {
+        "timezone": "America/Hermosillo",
+        "countryCode": "MX"
+    },
+    "HUX": {
+        "timezone": "America/Mexico_City",
+        "countryCode": "MX"
+    },
+    "ZIH": {
+        "timezone": "America/Mexico_City",
+        "countryCode": "MX"
+    },
+    "BJX": {
+        "timezone": "America/Mexico_City",
+        "countryCode": "MX"
+    },
+    "LTO": {
+        "timezone": "America/Mazatlan",
+        "countryCode": "MX"
+    },
+    "ZLO": {
+        "timezone": "America/Mexico_City",
+        "countryCode": "MX"
+    },
+    "MZT": {
+        "timezone": "America/Mazatlan",
+        "countryCode": "MX"
+    },
+    "MID": {
+        "timezone": "America/Mexico_City",
+        "countryCode": "MX"
+    },
+    "MEX": {
+        "timezone": "America/Mexico_City",
+        "countryCode": "MX"
+    },
+    "MTY": {
+        "timezone": "America/Mexico_City",
+        "countryCode": "MX"
+    },
+    "PVR": {
+        "timezone": "America/Mexico_City",
+        "countryCode": "MX"
+    },
+    "QRO": {
+        "timezone": "America/Mexico_City",
+        "countryCode": "MX"
+    },
+    "SJD": {
+        "timezone": "America/Mazatlan",
+        "countryCode": "MX"
+    },
+    "SLP": {
+        "timezone": "America/Mexico_City",
+        "countryCode": "MX"
+    },
+    "CCC": {
+        "timezone": "America/Havana",
+        "countryCode": "CU"
+    },
+    "HOG": {
+        "timezone": "America/Havana",
+        "countryCode": "CU"
+    },
+    "SNU": {
+        "timezone": "America/Havana",
+        "countryCode": "CU"
+    },
+    "VRA": {
+        "timezone": "America/Havana",
+        "countryCode": "CU"
+    },
+    "POP": {
+        "timezone": "America/Santo_Domingo",
+        "countryCode": "DO"
+    },
+    "PUJ": {
+        "timezone": "America/Santo_Domingo",
+        "countryCode": "DO"
+    },
+    "AZS": {
+        "timezone": "America/Santo_Domingo",
+        "countryCode": "DO"
+    },
+    "BZE": {
+        "timezone": "America/Belize",
+        "countryCode": "BZ"
+    },
+    "BGI": {
+        "timezone": "America/Barbados",
+        "countryCode": "BB"
+    },
+    "GCM": {
+        "timezone": "America/Cayman",
+        "countryCode": "KY"
+    },
+    "KIN": {
+        "timezone": "America/Jamaica",
+        "countryCode": "JM"
+    },
+    "LIR": {
+        "timezone": "America/Costa_Rica",
+        "countryCode": "CR"
+    },
+    "MBJ": {
+        "timezone": "America/Jamaica",
+        "countryCode": "JM"
+    },
+    "NAS": {
+        "timezone": "America/Nassau",
+        "countryCode": "BS"
+    },
+    "AUA": {
+        "timezone": "America/Aruba",
+        "countryCode": "AW"
+    },
+    "SXM": {
+        "timezone": "America/Curacao",
+        "countryCode": "SX"
+    },
+    "POS": {
+        "timezone": "America/Port_of_Spain",
+        "countryCode": "TT"
+    },
+    "PLS": {
+        "timezone": "America/Grand_Turk",
+        "countryCode": "TC"
+    },
+    "RTB": {
+        "timezone": "America/Tegucigalpa",
+        "countryCode": "HN"
+    },
+    "SJO": {
+        "timezone": "America/Costa_Rica",
+        "countryCode": "CR"
+    },
+    "SJU": {
+        "timezone": "America/Puerto_Rico",
+        "countryCode": "PR"
+    },
+    "BDA": {
+        "timezone": "Atlantic/Bermuda",
+        "countryCode": "BM"
+    },
+    "ANU": {
+        "timezone": "America/Antigua",
+        "countryCode": "AG"
+    },
+    "UVF": {
+        "timezone": "America/St_Lucia",
+        "countryCode": "LC"
+    },
+    "CUR": {
+        "timezone": "America/Curacao",
+        "countryCode": "CW"
+    },
+    "ATH": {
+        "timezone": "Europe/Athens",
+        "countryCode": "GR"
+    },
+    "BCN": {
+        "timezone": "Europe/Madrid",
+        "countryCode": "ES"
+    },
+    "BIQ": {
+        "timezone": "Europe/Paris",
+        "countryCode": "FR"
+    },
+    "BES": {
+        "timezone": "Europe/Paris",
+        "countryCode": "FR"
+    },
+    "DUB": {
+        "timezone": "Europe/Dublin",
+        "countryCode": "IE"
+    },
+    "DUS": {
+        "timezone": "Europe/Berlin",
+        "countryCode": "DE"
+    },
+    "FRA": {
+        "timezone": "Europe/Berlin",
+        "countryCode": "DE"
+    },
+    "GLA": {
+        "timezone": "Europe/London",
+        "countryCode": "GB"
+    },
+    "HAM": {
+        "timezone": "Europe/Berlin",
+        "countryCode": "DE"
+    },
+    "HAJ": {
+        "timezone": "Europe/Berlin",
+        "countryCode": "DE"
+    },
+    "LIS": {
+        "timezone": "Europe/Lisbon",
+        "countryCode": "PT"
+    },
+    "LGW": {
+        "timezone": "Europe/London",
+        "countryCode": "GB"
+    },
+    "MXP": {
+        "timezone": "Europe/Rome",
+        "countryCode": "IT"
+    },
+    "MPL": {
+        "timezone": "Europe/Paris",
+        "countryCode": "FR"
+    },
+    "MUC": {
+        "timezone": "Europe/Berlin",
+        "countryCode": "DE"
+    },
+    "CDG": {
+        "timezone": "Europe/Paris",
+        "countryCode": "FR"
+    },
+    "OPO": {
+        "timezone": "Europe/Lisbon",
+        "countryCode": "PT"
+    },
+    "FCO": {
+        "timezone": "Europe/Rome",
+        "countryCode": "IT"
+    },
+    "TRN": {
+        "timezone": "Europe/Rome",
+        "countryCode": "IT"
+    },
+    "VCE": {
+        "timezone": "Europe/Rome",
+        "countryCode": "IT"
+    },
+    "VIE": {
+        "timezone": "Europe/Vienna",
+        "countryCode": "AT"
+    },
+    "SCL": {
+        "timezone": "America/Santiago",
+        "countryCode": "CL"
+    },
+    "GRU": {
+        "timezone": "America/Sao_Paulo",
+        "countryCode": "BR"
+    },
+    "BNE": {
+        "timezone": "Australia/Brisbane",
+        "countryCode": "AU"
+    },
+    "MEL": {
+        "timezone": "Australia/Sydney",
+        "countryCode": "AU"
+    },
+    "SYD": {
+        "timezone": "Australia/Sydney",
+        "countryCode": "AU"
+    }
+}
