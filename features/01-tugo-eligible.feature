@@ -82,3 +82,9 @@ Feature: Indicate if a booking is eligible for TuGo Insurance coverage.
             # TODO: Is timezone relevant in this?
             | 2020-10-20T00:00:00.000Z | YYC    | LAX         | null        | 20201120 | true              | null                  |
             | 2021-10-20T00:00:00.000Z | YYC    | LAX         | null        | 20211120 | false             | TRIP_EXCEEDS_END_DATE |
+
+    #TODO - Confirm if this is true
+    Scenario: South American destinations are explicitly excluded
+
+    #TODO - This was a thought - in case these URI's are dynamic at all over time, maybe we serve them?
+    Scenario: The Insurance Certificate and the Public Info Page links are included in the response payload
