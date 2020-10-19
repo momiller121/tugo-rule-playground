@@ -88,3 +88,8 @@ Feature: Indicate if a booking is eligible for TuGo Insurance coverage.
 
     #TODO - This was a thought - in case these URI's are dynamic at all over time, maybe we serve them?
     Scenario: The Insurance Certificate and the Public Info Page links are included in the response payload
+
+    #TODO - not sure how to behave in this case.
+    Scenario: Unknown airports are provided with valid dates.
+
+    Should we succeed or fail of we are pass an airport not in our list of 247?
