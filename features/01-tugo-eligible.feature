@@ -30,12 +30,12 @@ Feature: Indicate if a booking is eligible for TuGo Insurance coverage.
 
     Scenario Outline: Booking and Trip date boundaries affect eligibility
 
-        TuGo coverage is only applicable for bookings made after September 20, 2020
+        TuGo coverage is only applicable for bookings made after September 18, 2020
         for travel until August 31, 2021. Booking or travel dates outside of these
         parameters make the booking ineligible for TuGo insurance.
 
         TODO: There are several detail questions around this.
-        - Is a booking made on Sept 20 eligible or ineligible?
+        - Is a booking made on Sept 18 eligible or ineligible?
         - Regarding the end date of August 31, 2021, is that relative to the start or the end of the trip?
         - Once the first question is clarified, how does this date boundary work - is it inclusive or exclusive of
         the delared end date?
@@ -56,7 +56,7 @@ Feature: Indicate if a booking is eligible for TuGo Insurance coverage.
             # TODO - deliberately test the booking boundary date.
             # What should happen if the booking is on the boundary date?
             # Is there a reason to consider timezone in this?
-            | 20200920    | 20201120 | true              | null                        |
+            | 20200918    | 20201120 | true              | null                        |
             # TODO - deliberately test the end boundary date.
             # What should happen if the trip is on the boundary date?
             # Is this end date relative to trip start, end?
