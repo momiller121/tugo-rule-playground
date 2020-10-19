@@ -1,6 +1,6 @@
 {
   "name": "tugo-rule-playground",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "exploring TuGo eligibility rule resource",
   "main": "index.js",
   "scripts": {
