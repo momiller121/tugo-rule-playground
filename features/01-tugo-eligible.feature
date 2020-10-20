@@ -131,9 +131,11 @@ Feature: Indicate if a booking is eligible for TuGo Insurance coverage.
 
 
 
-    #TODO - This was a thought - in case these URI's are dynamic at all over time, maybe we serve them?
+    #TODO - This was a thought - in case these URIs may change, shall we serve them from a central source?
     @WIP
-    Scenario: The Insurance Certificate and the Public Info Page links are included in the response payload
+    Scenario: Developer wants to know the URI values for the Insurance Certificate and FAQ page.
+
+        The Insurance Certificate and the Public Info Page links are included in the response payload.
 
 
 
@@ -150,10 +152,12 @@ Feature: Indicate if a booking is eligible for TuGo Insurance coverage.
     @WIP
     Scenario: Booking Timezone is considered if available
 
-        If the timezone of the booking purchase is known, it may be that we should validate the booking date relative
-        to this time-of-booking timezone instead of the timezone of the origin airport. This could be derived from the
-        timezone of the Sabre Pseudo City Code (indicating the Point of Sale) and then provided explicitly to the
-        service as an additional parameter.
+        If the timezone of the booking purchase is known, we should validate the booking date relative
+        to this time-of-booking timezone instead of the timezone of the origin airport. This is the
+        timezone of the Sabre Pseudo City Code (indicating the Point of Sale).
+
+        In the case that there is no booking, then there is also no booking date and no booking timezone. 
+        Therefore the timezone of the origin airport is used.
 
 
 
@@ -167,5 +171,7 @@ Feature: Indicate if a booking is eligible for TuGo Insurance coverage.
                 "return": 21
             }
         This is applicable until the window starts to close on the end date for the program. At that point, these
-        values could become dynamic until both have counted down to zero. For example, a trip starting on
-        August 30, 2021 would have 1 day remaining of insurance coverage.
+        values could become dynamic until both have counted down to zero. 
+        For example, a trip starting on August 30, 2021 would have 1 day remaining of insurance coverage.
+        For example, a trip starting on August 20, 2021 would have 11 days remaining of insurance coverage
+        for return travel, 7 days for oneway.
