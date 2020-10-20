@@ -107,16 +107,65 @@ Feature: Indicate if a booking is eligible for TuGo Insurance coverage.
             | ["WS"]           | true              | null                          |
             | ["AF", "DL"]     | false             | UNSUPPORTED_OPERATING_CARRIER |
 
+
+
     #TODO - Confirm if this is true
     @WIP
     Scenario: South American destinations are explicitly excluded
+
+        I think this might be true as nothing in the docs point to their inclusion.
+        We have 2 South American stations in the 247 listed airports:
+            {
+                "code": "SCL",
+                "airportName": "Comodoro Arturo Merino Benitez Airport",
+                "marketingRegion": "South America",
+                "countryName": "Chile",
+            },
+            {
+                "code": "GRU",
+                "airportName": "Sao Paulo-Guarulhos International Airport",
+                "marketingRegion": "South America",
+                "countryName": "Brazil",
+            },
+
+
+
 
     #TODO - This was a thought - in case these URI's are dynamic at all over time, maybe we serve them?
     @WIP
     Scenario: The Insurance Certificate and the Public Info Page links are included in the response payload
 
+
+
+
     #TODO - not sure how to behave in this case.
     @WIP
     Scenario: Unknown airports are provided with valid dates.
 
-        Should we succeed or fail of we are pass an airport not in our list of 247?
+        Should we succeed or fail of we are pass an airport not in our list of 247? Originally I was thinking of
+        being tolerant of missing an airport in the list. But the liklihood of missing an airport if WestJet is selling
+        the booking seem very low. 
+
+
+    @WIP
+    Scenario: Booking Timezone is considered if available
+
+        If the timezone of the booking purchase is known, it may be that we should validate the booking date relative
+        to this time-of-booking timezone instead of the timezone of the origin airport. This could be derived from the
+        timezone of the Sabre Pseudo City Code (indicating the Point of Sale) and then provided explicitly to the
+        service as an additional parameter.
+
+
+
+
+    @WIP
+    Scenario: Indicate approaching end of coverage window
+
+        Proposed is that we return the `limit days` of the coverage (currently stated as 7 or 21):
+            "limitDays": {
+                "oneway": 7,
+                "return": 21
+            }
+        This is applicable until the window starts to close on the end date for the program. At that point, these
+        values could become dynamic until both have counted down to zero. For example, a trip starting on
+        August 30, 2021 would have 1 day remaining of insurance coverage.
