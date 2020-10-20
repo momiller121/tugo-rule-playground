@@ -10,7 +10,16 @@ const getTugoSearchParams = (params) => {
 
     Object.keys(params).forEach((key) => {
 
-        setupUrl.searchParams.set(key, params[key]);
+        if (Array.isArray(params[key])) {
+            params[key].forEach((val) => {
+
+                setupUrl.searchParams.append(key, val);
+            });
+        }
+        else {
+            setupUrl.searchParams.set(key, params[key]);
+        }
+
     });
     return setupUrl.search;
 };
@@ -52,6 +61,11 @@ Given('the booking date is {string}', function (bookingDate) {
 Given('the trip date is {string}', function (tripDate) {
 
     this.tugoParams.tripDate = tripDate;
+});
+
+Given('the operatingCarrier is {string}', function (operatingCarrier) {
+
+    this.tugoParams.operatingCarrier = JSON.parse(operatingCarrier);
 });
 
 When('I request a TuGo eligibility response', async function () {
